@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.main{
+    background: url(../img/Log-In-bg.png) no-repeat bottom left  /cover;
+    height: 100vh;
+}
+
+
+.main__block{
+    max-width: 608px;
+}
+
+.main__wrapper{
+    display: flex; 
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.main__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main__logo-text{
+    color: #474747;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 39px;
+}
+
+.form{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 24px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.form__title{
+    font-size: 25px;
+    color: #323233;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.form__sign-up{
+    text-align: center;
+    color: #5A6175;
+}
+
+.form__link{
+    color: #FF6700;
+}
+
+.form__input{
+    border: 1px solid #DAD7D5;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    width: 560px;
+}
+
+.form__button{
+    background-color: #0C6FF9;
+    border-radius: 24px;
+    padding: 16px;
+    text-align: center;
+    width: 560px;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 16pz;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+
+.form__icon-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 560px;
+}
+
+
+.form__icon-block{
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 130px;
+    background-color: #000;
+}
